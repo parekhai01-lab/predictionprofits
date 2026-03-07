@@ -28,22 +28,22 @@ paginate = 10
 
 [menu]
   [[menu.main]]
-    identifier = "prediction-markets"
+    identifier = "prediction-markets-menu"
     name = "Prediction Markets"
     url = "/tags/prediction-markets/"
     weight = 10
   [[menu.main]]
-    identifier = "crypto-income"
+    identifier = "crypto-income-menu"
     name = "Crypto Income"
     url = "/tags/crypto-income/"
     weight = 20
   [[menu.main]]
-    identifier = "reviews"
+    identifier = "reviews-menu"
     name = "Reviews"
     url = "/tags/reviews/"
     weight = 30
   [[menu.main]]
-    identifier = "about"
+    identifier = "about-menu"
     name = "About"
     url = "/about/"
     weight = 40
