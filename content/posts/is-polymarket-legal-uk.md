@@ -139,7 +139,9 @@ Because Polymarket is non-custodial, your funds are only as secure as your walle
 
 ### Privacy Considerations
 
-All Polymarket activity is on-chain and publicly visible. If you're conscious about privacy — linking your real identity to your trading activity — consider your approach to wallet management. Some users opt to use a VPN when accessing the platform. {{< affiliate link="nordvpn" text="NordVPN is worth considering if you value privacy" >}} when operating in the crypto space, particularly for masking your general browsing and connection metadata.
+All Polymarket activity is on-chain and publicly visible. But there's a bigger reason UK users mention VPNs in the context of Polymarket: **the platform is outright banned in the United States and several other countries**, including North Korea and Cuba. US users are geo-blocked entirely. 
+
+For UK users, this isn't a legal issue — you can access Polymarket freely. But if you travel to the US, or want to protect your privacy while trading, a VPN helps. {{< affiliate link="nordvpn" text="NordVPN" >}} is the most widely used option in the crypto community — it has servers in 111 countries, a verified no-logs policy, and works reliably with crypto platforms. It's worth having if you travel frequently or simply value keeping your browsing private.
 
 ---
 
