@@ -1,0 +1,14 @@
+{{- $link := .Get "link" -}}
+{{- $text := .Get "text" -}}
+{{- $links := dict
+  "coinbase" "https://coinbase.com/join/PLACEHOLDER_CB"
+  "kraken" "https://kraken.com/sign-up?referral=PLACEHOLDER_KR"
+  "ledger" "https://shop.ledger.com/?r=PLACEHOLDER_LG"
+  "nordvpn" "https://nordvpn.com/?coupon=PLACEHOLDER_NV"
+  "etoro" "https://etoro.com/PLACEHOLDER_ET"
+  "revolut" "https://revolut.com/referral/PLACEHOLDER_RV"
+  "trezor" "https://trezor.io/PLACEHOLDER_TZ"
+  "binance" "https://binance.com/en/activity/referral/PLACEHOLDER_BN"
+-}}
+{{- $url := index $links $link | default "#" -}}
+<a href="{{ $url }}" rel="nofollow sponsored" target="_blank" class="affiliate-link">{{ $text }}</a>

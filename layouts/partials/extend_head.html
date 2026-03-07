@@ -1,0 +1,31 @@
+{{ $css := resources.Get "css/custom.css" | minify }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+<!-- UK GDPR consent banner (basic) -->
+<script>
+  // Simple consent check — replace with CookieYes when deploying
+  if (!localStorage.getItem('consent')) {
+    document.addEventListener('DOMContentLoaded', function() {
+      var banner = document.createElement('div');
+      banner.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:#1a1a1a;color:#fff;padding:12px 20px;font-size:13px;z-index:9999;display:flex;justify-content:space-between;align-items:center;';
+      banner.innerHTML = '<span>We use cookies for analytics. <a href="/privacy-policy/" style="color:#7eb3ff">Privacy Policy</a></span><button onclick="localStorage.setItem(\'consent\',\'1\');this.parentNode.remove()" style="background:#0066cc;color:#fff;border:none;padding:6px 14px;border-radius:4px;cursor:pointer;margin-left:16px">Accept</button>';
+      document.body.appendChild(banner);
+    });
+  }
+</script>
+
+<!-- Schema: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Prediction Profits",
+  "url": "https://predictionprofits.co.uk/",
+  "description": "UK guides to prediction markets and crypto passive income",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://predictionprofits.co.uk/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
