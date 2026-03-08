@@ -5,9 +5,9 @@ theme = "PaperMod"
 paginate = 10
 
 [params]
-  description = "UK guides to prediction markets, crypto passive income, and trading tools. Earn more with your money."
+  description = "UK guides to prediction markets, crypto passive income, and trading tools. Real experience, no fluff."
   author = "Prediction Profits"
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
@@ -17,14 +17,28 @@ paginate = 10
   TocOpen = false
   ShowWordCount = true
   env = "production"
+  customCSS = ["css/custom.min.css"]
 
   [params.homeInfoParams]
-    Title = "Profit From Prediction Markets 🇬🇧"
-    Content = "The UK's go-to guide for prediction markets, crypto passive income, and trading tools. Real experience, no fluff."
+    Title = "Make Money From Prediction Markets 🇬🇧"
+    Content = """The UK's sharpest guide to prediction markets, DeFi yield, and trading tools.
+We put real money in. We tell you what works.<br><br>
+<a href='/posts/how-to-use-polymarket-uk/' class='btn-primary'>Get Started →</a>
+&nbsp;<a href='/posts/polymarket-review-uk-2026/' class='btn-outline'>Read the Review</a>
+<div class='pp-stats'>
+  <div class='pp-stat'><span class='pp-stat-val'>$3.5B+</span><span class='pp-stat-label'>Polymarket Volume</span></div>
+  <div class='pp-stat'><span class='pp-stat-val'>3 Guides</span><span class='pp-stat-label'>Published</span></div>
+  <div class='pp-stat'><span class='pp-stat-val'>Free</span><span class='pp-stat-label'>Always</span></div>
+</div>"""
+
+  # Twitter removed until @predprofits account is created
+  # [[params.socialIcons]]
+  #   name = "twitter"
+  #   url = "https://twitter.com/predprofits"
 
   [[params.socialIcons]]
-    name = "twitter"
-    url = "https://twitter.com/predprofits"
+    name = "rss"
+    url = "/index.xml"
 
 [menu]
   [[menu.main]]
