@@ -1,0 +1,58 @@
+{{- $type := .Get "type" | default "polymarket" -}}
+{{- $size := .Get "size" | default "wide" -}}
+
+{{- $banners := dict
+  "polymarket" (dict
+    "url" "https://polymarket.com?via=predprofits"
+    "title" "Trade on Polymarket"
+    "desc" "The world's largest prediction market. Trade on politics, crypto, sports & more with USDC."
+    "cta" "Start Trading →"
+    "color" "#0066ff"
+    "badge" "🏆 #1 Prediction Market"
+  )
+  "coinbase" (dict
+    "url" "https://www.coinbase.com/join/predictionprofits"
+    "title" "Buy USDC on Coinbase"
+    "desc" "FCA-registered. Buy USDC with GBP via Faster Payments. No deposit fees."
+    "cta" "Get Started →"
+    "color" "#0052ff"
+    "badge" "✅ FCA Registered"
+  )
+  "kraken" (dict
+    "url" "https://kraken.com/sign-up?referral=predprofits"
+    "title" "Buy Crypto on Kraken"
+    "desc" "Tight spreads, low fees, UK-friendly. Ideal for larger USDC purchases."
+    "cta" "Open Account →"
+    "color" "#5741d9"
+    "badge" "💰 Best Rates"
+  )
+  "ledger" (dict
+    "url" "https://shop.ledger.com/?r=predprofits"
+    "title" "Secure Your Crypto with Ledger"
+    "desc" "Hardware wallet from £59. Keep your private keys offline. Trusted by 6M+ users."
+    "cta" "Shop Ledger →"
+    "color" "#000000"
+    "badge" "🔒 Best Hardware Wallet"
+  )
+  "nordvpn" (dict
+    "url" "https://nordvpn.com/?coupon=predprofits"
+    "title" "Protect Your Trades with NordVPN"
+    "desc" "Access global prediction markets safely. No-log VPN trusted by millions."
+    "cta" "Get NordVPN →"
+    "color" "#4687ff"
+    "badge" "🛡️ Top-Rated VPN"
+  )
+-}}
+
+{{- $b := index $banners $type | default (index $banners "polymarket") -}}
+
+<div class="affiliate-banner affiliate-banner--{{ $size }}" style="--banner-color: {{ $b.color }}">
+  <div class="affiliate-banner__badge">{{ $b.badge }}</div>
+  <div class="affiliate-banner__content">
+    <h3 class="affiliate-banner__title">{{ $b.title }}</h3>
+    <p class="affiliate-banner__desc">{{ $b.desc }}</p>
+  </div>
+  <a href="{{ $b.url }}" rel="nofollow sponsored" target="_blank" class="affiliate-banner__cta">
+    {{ $b.cta }}
+  </a>
+</div>

@@ -12,6 +12,9 @@ draft: false
 
 Polymarket has gone from a niche curiosity to a genuinely significant financial platform. During the 2024 US election, it processed over $3.5 billion in cumulative volume, became a reference point for mainstream journalists, and consistently outperformed traditional polling in predictive accuracy. It's not a fad.
 
+
+{{< banner type="polymarket" >}}
+
 For UK users, though, using Polymarket comes with a set of specific considerations — regulatory, tax, and practical — that aren't relevant if you're based in the US. This review covers all of it.
 
 ---
@@ -37,6 +40,9 @@ Market resolution is handled by **UMA's Optimistic Oracle** — a decentralised 
 This is genuinely decentralised infrastructure. There's no Polymarket employee who can refund your trade or manually override a resolution.
 
 ---
+
+
+{{< banner type="coinbase" >}}
 
 ## How to Get Started on Polymarket from the UK
 
@@ -183,6 +189,9 @@ For UK users who want similar exposure to event outcomes, the main alternatives 
 For pure prediction market functionality with the lowest costs, Polymarket is the clear leader. The trade-off is the regulatory gap.
 
 ---
+
+
+{{< banner type="ledger" >}}
 
 ## Our Verdict
 

@@ -61,3 +61,61 @@ th {
   margin: 16px 0;
   border-radius: 0 4px 4px 0;
 }
+
+/* ── Affiliate Banners ─────────────────────────────────────────── */
+.affiliate-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--banner-color) 15%, #0d1117), color-mix(in srgb, var(--banner-color) 5%, #161b22));
+  border: 1px solid color-mix(in srgb, var(--banner-color) 40%, transparent);
+  border-left: 4px solid var(--banner-color);
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin: 28px 0;
+  flex-wrap: wrap;
+}
+.affiliate-banner__badge {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--banner-color);
+  white-space: nowrap;
+  min-width: 120px;
+}
+.affiliate-banner__content { flex: 1; min-width: 200px; }
+.affiliate-banner__title {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 4px;
+  color: #e6edf3;
+}
+.affiliate-banner__desc {
+  font-size: 13px;
+  color: #7d8590;
+  margin: 0;
+  line-height: 1.5;
+}
+.affiliate-banner__cta {
+  display: inline-block;
+  background: var(--banner-color);
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: opacity .2s;
+}
+.affiliate-banner__cta:hover { opacity: .85; }
+
+/* ── Affiliate inline links ────────────────────────────────────── */
+.affiliate-link {
+  color: #3fb950;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
+}
+.affiliate-link:hover { color: #56d364; }

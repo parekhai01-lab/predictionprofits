@@ -49,12 +49,12 @@ We put real money in. We tell you what works.<br><br>
   [[menu.main]]
     identifier = "crypto-income-menu"
     name = "Crypto Income"
-    url = "/tags/crypto-income/"
+    url = "/categories/crypto-income/"
     weight = 20
   [[menu.main]]
     identifier = "reviews-menu"
     name = "Reviews"
-    url = "/tags/reviews/"
+    url = "/categories/reviews/"
     weight = 30
   [[menu.main]]
     identifier = "about-menu"
@@ -68,3 +68,10 @@ We put real money in. We tell you what works.<br><br>
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+ignoreLogs = ['warning-goldmark-raw-html']

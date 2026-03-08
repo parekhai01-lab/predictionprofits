@@ -1,14 +1,13 @@
 {{ $css := resources.Get "css/custom.css" | minify }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
-<!-- UK GDPR consent banner (basic) -->
+<!-- UK GDPR consent banner -->
 <script>
-  // Simple consent check — replace with CookieYes when deploying
   if (!localStorage.getItem('consent')) {
     document.addEventListener('DOMContentLoaded', function() {
       var banner = document.createElement('div');
-      banner.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:#1a1a1a;color:#fff;padding:12px 20px;font-size:13px;z-index:9999;display:flex;justify-content:space-between;align-items:center;';
-      banner.innerHTML = '<span>We use cookies for analytics. <a href="/privacy-policy/" style="color:#7eb3ff">Privacy Policy</a></span><button onclick="localStorage.setItem(\'consent\',\'1\');this.parentNode.remove()" style="background:#0066cc;color:#fff;border:none;padding:6px 14px;border-radius:4px;cursor:pointer;margin-left:16px">Accept</button>';
+      banner.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:#1a1a1a;color:#fff;padding:12px 20px;font-size:13px;z-index:9999;display:flex;justify-content:space-between;align-items:center;gap:12px;';
+      banner.innerHTML = '<span>We use cookies for analytics. <a href="/privacy-policy/" style="color:#7eb3ff">Privacy Policy</a></span><button onclick="localStorage.setItem(\'consent\',\'1\');this.parentNode.remove()" style="background:#0066cc;color:#fff;border:none;padding:6px 14px;border-radius:4px;cursor:pointer;white-space:nowrap">Accept</button>';
       document.body.appendChild(banner);
     });
   }
@@ -24,8 +23,54 @@
   "description": "UK guides to prediction markets and crypto passive income",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://predictionprofits.co.uk/search?q={search_term_string}",
+    "target": "https://predictionprofits.co.uk/?s={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
 </script>
+
+{{ if .IsPage }}
+<!-- Schema: Article -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ .Description | jsonify }},
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "Prediction Profits",
+    "url": "https://predictionprofits.co.uk/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Prediction Profits",
+    "url": "https://predictionprofits.co.uk/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+
+<!-- Schema: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://predictionprofits.co.uk/" },
+    { "@type": "ListItem", "position": 2, "name": {{ .Title | jsonify }}, "item": {{ .Permalink | jsonify }} }
+  ]
+}
+</script>
+{{ end }}
+
+<!-- Open Graph / Twitter Cards -->
+<meta property="og:site_name" content="Prediction Profits">
+<meta name="twitter:site" content="@predprofits">
+<meta name="twitter:card" content="summary_large_image">
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
