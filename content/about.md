@@ -28,3 +28,15 @@ This site contains affiliate links. If you sign up through our links, we may ear
 **This is not financial advice.** Prediction markets, crypto, and DeFi all carry risk. Do your own research before committing funds.
 
 For regulated financial advice, consult an FCA-authorised adviser.
+
+
+## Start Here
+
+If you're new, begin with these guides:
+
+- [How to Use Polymarket in the UK](/posts/how-to-use-polymarket-uk/)
+- [Is Polymarket Legal in the UK?](/posts/is-polymarket-legal-uk/)
+- [Polymarket Review UK (2026)](/posts/polymarket-review-uk-2026/)
+- [Best Wallet for Polymarket in the UK](/posts/best-wallet-for-polymarket-uk/)
+- [Coinbase vs Kraken for Buying USDC in the UK](/posts/coinbase-vs-kraken-for-uk-usdc/)
+- [How to Withdraw Polymarket Profits to a UK Bank Account](/posts/how-to-withdraw-polymarket-profits-uk/)
