@@ -4,29 +4,57 @@
     "title": "Kalshi Review UK 2026: Can British Users Access It?",
     "slug": "kalshi-review-uk-2026",
     "description": "Kalshi is a CFTC-regulated prediction market exchange. We review whether UK users can access it, how it compares to Polymarket, and what markets are available.",
-    "keywords": ["kalshi", "kalshi uk", "prediction markets uk", "kalshi vs polymarket", "regulated prediction markets"],
+    "keywords": [
+      "kalshi",
+      "kalshi uk",
+      "prediction markets uk",
+      "kalshi vs polymarket",
+      "regulated prediction markets"
+    ],
     "category": "Reviews",
-    "affiliates": ["coinbase", "ledger"],
-    "status": "queued"
+    "affiliates": [
+      "coinbase",
+      "ledger"
+    ],
+    "status": "published",
+    "published_date": "2026-03-26"
   },
   {
     "id": "prediction-markets-uk-beginners-guide",
     "title": "Prediction Markets UK: A Beginner's Guide for 2026",
     "slug": "prediction-markets-uk-beginners-guide",
     "description": "New to prediction markets? This beginner's guide explains how prediction markets work, how to get started from the UK, and where to trade in 2026.",
-    "keywords": ["prediction markets uk", "how do prediction markets work", "prediction market beginner guide", "uk prediction trading"],
+    "keywords": [
+      "prediction markets uk",
+      "how do prediction markets work",
+      "prediction market beginner guide",
+      "uk prediction trading"
+    ],
     "category": "Guides",
-    "affiliates": ["coinbase", "ledger", "polymarket"],
-    "status": "queued"
+    "affiliates": [
+      "coinbase",
+      "ledger",
+      "polymarket"
+    ],
+    "status": "published",
+    "published_date": "2026-03-26"
   },
   {
     "id": "best-prediction-markets-platforms-2026",
     "title": "Best Prediction Market Platforms in 2026 (UK Comparison)",
     "slug": "best-prediction-markets-platforms-2026",
     "description": "A head-to-head comparison of the best prediction market platforms available to UK users in 2026: Polymarket, Kalshi, Manifold, Metaculus, and more.",
-    "keywords": ["best prediction markets", "prediction market platforms uk", "polymarket vs kalshi", "prediction market comparison 2026"],
+    "keywords": [
+      "best prediction markets",
+      "prediction market platforms uk",
+      "polymarket vs kalshi",
+      "prediction market comparison 2026"
+    ],
     "category": "Reviews",
-    "affiliates": ["coinbase", "polymarket"],
+    "affiliates": [
+      "coinbase",
+      "polymarket"
+    ],
     "status": "queued"
   },
   {
@@ -34,9 +62,18 @@
     "title": "How to Make Money on Prediction Markets in the UK (2026 Guide)",
     "slug": "how-to-make-money-prediction-markets-uk",
     "description": "A practical guide to making money on prediction markets from the UK: how smart traders find edge, manage risk, and actually profit from Polymarket and Kalshi.",
-    "keywords": ["make money prediction markets", "prediction market strategy uk", "polymarket profit", "prediction markets income uk"],
+    "keywords": [
+      "make money prediction markets",
+      "prediction market strategy uk",
+      "polymarket profit",
+      "prediction markets income uk"
+    ],
     "category": "Strategy",
-    "affiliates": ["coinbase", "polymarket", "ledger"],
+    "affiliates": [
+      "coinbase",
+      "polymarket",
+      "ledger"
+    ],
     "status": "queued"
   },
   {
@@ -44,9 +81,19 @@
     "title": "DeFi Yield Farming UK: How to Earn Passive Income in 2026",
     "slug": "defi-yield-farming-uk-beginners",
     "description": "How UK investors can earn passive income through DeFi yield farming in 2026: the safest protocols, realistic returns, UK tax treatment, and how to get started.",
-    "keywords": ["defi yield farming uk", "defi passive income uk", "aave uk", "compound finance uk", "usdc yield uk"],
+    "keywords": [
+      "defi yield farming uk",
+      "defi passive income uk",
+      "aave uk",
+      "compound finance uk",
+      "usdc yield uk"
+    ],
     "category": "DeFi",
-    "affiliates": ["coinbase", "ledger", "kraken"],
+    "affiliates": [
+      "coinbase",
+      "ledger",
+      "kraken"
+    ],
     "status": "queued"
   },
   {
@@ -54,9 +101,18 @@
     "title": "Best USDC Interest Rates for UK Users in 2026",
     "slug": "usdc-interest-rates-uk-2026",
     "description": "Where to earn the best interest on your USDC if you're based in the UK: centralised platforms, DeFi protocols, and what the risks actually are.",
-    "keywords": ["usdc interest uk", "usdc savings uk", "earn interest usdc uk", "stablecoin yield uk 2026"],
+    "keywords": [
+      "usdc interest uk",
+      "usdc savings uk",
+      "earn interest usdc uk",
+      "stablecoin yield uk 2026"
+    ],
     "category": "DeFi",
-    "affiliates": ["coinbase", "kraken", "ledger"],
+    "affiliates": [
+      "coinbase",
+      "kraken",
+      "ledger"
+    ],
     "status": "queued"
   },
   {
@@ -64,29 +120,58 @@
     "title": "Polygon Network UK Guide: What It Is and Why It Matters for Polymarket",
     "slug": "polygon-network-uk-guide",
     "description": "A plain-English guide to the Polygon network for UK users: what it is, why Polymarket uses it, gas fees, and how to use it with MetaMask.",
-    "keywords": ["polygon network uk", "polygon metamask uk", "polygon matic uk", "polygon usdc", "polymarket polygon"],
+    "keywords": [
+      "polygon network uk",
+      "polygon metamask uk",
+      "polygon matic uk",
+      "polygon usdc",
+      "polymarket polygon"
+    ],
     "category": "Guides",
-    "affiliates": ["coinbase", "ledger"],
+    "affiliates": [
+      "coinbase",
+      "ledger"
+    ],
     "status": "queued"
   },
   {
     "id": "crypto-passive-income-uk-2026",
     "title": "7 Ways to Earn Crypto Passive Income in the UK (2026)",
     "slug": "crypto-passive-income-uk-2026",
-    "description": "Realistic ways to earn passive income from crypto in the UK: staking, yield farming, prediction markets, affiliate referrals, and more — with honest risk ratings.",
-    "keywords": ["crypto passive income uk", "passive income crypto 2026", "staking uk", "defi income uk", "earn crypto uk"],
+    "description": "Realistic ways to earn passive income from crypto in the UK: staking, yield farming, prediction markets, affiliate referrals, and more \u2014 with honest risk ratings.",
+    "keywords": [
+      "crypto passive income uk",
+      "passive income crypto 2026",
+      "staking uk",
+      "defi income uk",
+      "earn crypto uk"
+    ],
     "category": "Strategy",
-    "affiliates": ["coinbase", "ledger", "kraken", "polymarket"],
-    "status": "queued"
+    "affiliates": [
+      "coinbase",
+      "ledger",
+      "kraken",
+      "polymarket"
+    ],
+    "status": "published",
+    "published_date": "2026-03-26"
   },
   {
     "id": "coinbase-review-uk-2026",
     "title": "Coinbase UK Review 2026: Fees, Limits, and Is It Worth It?",
     "slug": "coinbase-review-uk-2026",
     "description": "A full Coinbase review for UK users in 2026: fees, GBP withdrawal limits, FCA registration, Faster Payments support, and how it compares to Kraken.",
-    "keywords": ["coinbase review uk", "coinbase uk fees", "coinbase uk 2026", "coinbase vs kraken uk"],
+    "keywords": [
+      "coinbase review uk",
+      "coinbase uk fees",
+      "coinbase uk 2026",
+      "coinbase vs kraken uk"
+    ],
     "category": "Reviews",
-    "affiliates": ["coinbase", "kraken"],
+    "affiliates": [
+      "coinbase",
+      "kraken"
+    ],
     "status": "queued"
   },
   {
@@ -94,9 +179,17 @@
     "title": "Kraken UK Review 2026: Is It Still the Best Exchange for Serious Traders?",
     "slug": "kraken-review-uk-2026",
     "description": "Our Kraken review for UK users in 2026: fees, USDC purchases, staking, FCA status, and whether it beats Coinbase for British crypto buyers.",
-    "keywords": ["kraken review uk", "kraken uk fees", "kraken uk 2026", "kraken vs coinbase uk"],
+    "keywords": [
+      "kraken review uk",
+      "kraken uk fees",
+      "kraken uk 2026",
+      "kraken vs coinbase uk"
+    ],
     "category": "Reviews",
-    "affiliates": ["kraken", "coinbase"],
+    "affiliates": [
+      "kraken",
+      "coinbase"
+    ],
     "status": "queued"
   },
   {
@@ -104,9 +197,18 @@
     "title": "Ledger Hardware Wallet UK Review: Is It Worth the Price?",
     "slug": "ledger-hardware-wallet-review-uk",
     "description": "A full Ledger hardware wallet review for UK users: Nano S Plus vs Nano X, setup, compatibility with MetaMask and Polymarket, and whether it's worth it.",
-    "keywords": ["ledger review uk", "ledger nano uk", "hardware wallet uk", "ledger metamask uk", "best hardware wallet uk 2026"],
+    "keywords": [
+      "ledger review uk",
+      "ledger nano uk",
+      "hardware wallet uk",
+      "ledger metamask uk",
+      "best hardware wallet uk 2026"
+    ],
     "category": "Reviews",
-    "affiliates": ["ledger", "coinbase"],
+    "affiliates": [
+      "ledger",
+      "coinbase"
+    ],
     "status": "queued"
   },
   {
@@ -114,9 +216,18 @@
     "title": "Polymarket Strategy Guide: How Smart UK Traders Find Edge",
     "slug": "polymarket-strategies-uk-2026",
     "description": "Five Polymarket strategies used by profitable traders in 2026: fading hype, whale tracking, Kalshi arbitrage, long-duration NO trades, and Fed signal trading.",
-    "keywords": ["polymarket strategy", "polymarket tips uk", "how to win polymarket", "polymarket edge", "prediction market strategy 2026"],
+    "keywords": [
+      "polymarket strategy",
+      "polymarket tips uk",
+      "how to win polymarket",
+      "polymarket edge",
+      "prediction market strategy 2026"
+    ],
     "category": "Strategy",
-    "affiliates": ["coinbase", "polymarket"],
+    "affiliates": [
+      "coinbase",
+      "polymarket"
+    ],
     "status": "queued"
   }
 ]
