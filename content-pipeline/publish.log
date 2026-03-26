@@ -1,0 +1,4 @@
+[2026-03-26 11:47 UTC] === publish-next-article.sh starting (dry_run=true) ===
+[2026-03-26 11:47 UTC] Selected article: kalshi-review-uk-2026 — Kalshi Review UK 2026: Can British Users Access It?
+[2026-03-26 11:47 UTC] Generating article via LLM...
+[2026-03-26 11:47 UTC] ERROR: Could not find OpenRouter API key in openclaw config.
