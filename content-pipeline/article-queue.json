@@ -75,7 +75,8 @@
       "polymarket",
       "ledger"
     ],
-    "status": "queued"
+    "status": "published",
+    "published_date": "2026-04-06"
   },
   {
     "id": "defi-yield-farming-uk-beginners",
