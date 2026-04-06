@@ -96,7 +96,8 @@
       "ledger",
       "kraken"
     ],
-    "status": "queued"
+    "status": "published",
+    "published_date": "2026-04-06"
   },
   {
     "id": "usdc-interest-rates-uk-2026",
